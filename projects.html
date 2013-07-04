@@ -32,8 +32,8 @@
           <ul class="nav" id="mainTabs">
             <li><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
             <li class="active"><a href="projects.html"><i class="icon-cog icon-white"></i> Projects</a></li>
-            <li><a href="resume.html"><i class="icon-list-alt icon-white"></i> Resume</a></li>
-            <li><a href="courses.html"><i class="icon-book icon-white"></i> Academics</a></li>
+            <li><a href="resume1.html"><i class="icon-list-alt icon-white"></i> Resume</a></li>
+            <li><a href="courses1.html"><i class="icon-book icon-white"></i> Academics</a></li>
             <li><a href="contact.html"><i class="icon-envelope icon-white"></i> Contact</a></li>
             <!-- <li><a href="#">Link</a></li> -->
           </ul>
@@ -46,63 +46,63 @@
           <ul id="resumeSideNavBar" class="nav nav-pills nav-stacked affix">
             <li class="nav-header">Academic Projects</li>
             <li>
-                <a href="#meris">Poj 1</a>
+                <a href="#HA">Home Automation</a>
             </li>
             <li>
-                <a href="#servocontrol">Proj 2</a>
+                <a href="#TIIADC">PMS</a>
             </li>
             <li>
-                <a href="#robocon">Proj 3</a>
+                <a href="#VN">Virtual Numpad</a>
+            </li>
+             <li>
+                <a href="#sine">Multiple client Inverter</a>
+            </li>
+            <li class="nav-header">Research Publications</li>
+            <li>
+                <a href="#PMS">PMS</a>
             </li>
             <li>
-                <a href="#watermeter">Proj 4</a>
+                <a href="#FPGAnetwork">Industrial Automation</a>
             </li>
-            <li>
-                <a href="#mlwss">Proj 5</a>
-            </li>
-            <li>
-                <a href="#exoskeleton">Proj 6</a>
-            </li>
-            <li class="nav-header">Industrial Research</li>
-            <li><a href="#ge">Int1</a></li>
-            <li><a href="#itc">Int2.</a></li>
+          
+            
+          <li class="nav-header">Industrial Research</li>
+            <li><a href="#IQL">Indigo Quotient Labs</a></li>
+           
           </ul>
         </div>
         <div class="span9">
           <div class="page-header">
             <h1>Projects<small> Academic, Courses and Competitions</small></h1>
           </div>
-          <section id="meris">
-            <h3>Proj1 (MERIS)</h3>
-            <h5>Guide:</h5><p>Prof. XXX, NITT(September 2012 - present)</p>
+          <section id="HA">
+            <h3>Control of Home Appliances from remote location</h3>
+            <h5>Guide:</h5><p>Prof. Reddy, NITT(September 2012 - present)</p>
             <h5>Abstract</h5>
             <p>
-              The objective is to ......
+                The objective is to create a centralized monitoring ability and controlling capability of home appliances from a remote location from within a local area network. TCP protocol was used to establish a ethernet communication through a host server computer which hosts the web application which can be accessed form any computer available on the local area network, the status and control packet along with destination controller address is generated and sent from the web app as per the command given by the user. This packet is received by Ardiuno ethernet shield which converts the packet information into serial data. The serial data is sent to all the embedded system sub module each possessing unique address. The micro controller which possess address as that is contained by the incoming data is processed and appliances status are toggled and rest other micro controller ignores it...
             </p>
+            <iframe width="560" height="315" src="http://www.youtube.com/embed/y1TEhkglS3o" frameborder="0" allowfullscreen></iframe>
           </section>
           <hr class="separator" />
-          <section id="servocontrol">
-            <h3>Proj 2</h3>
-            <h5>Guides</h5><p>Professors XXXX, NITT.<br>
+          <section id="TIIADC">
+            <h3>Power Flow Managment System</h3>
+            <h5>Guides</h5><p>Professors Ilango, NITT.<br>
             <em>Course: EEE.</em> April 2012</p>
             <h5>Abstract</h5>
             <p>
-              The objective is to demonstrate ...
+              Abstract:
+PV modules are increasingly used in the battery charging applications in home inverter systems due to the power crisis faced in developing countries. This works aims at maximizing the use of solar energy by charging the battery as well as by supplying it to the loads when in excess. This system is implemented using two subsystems namely a charge controller and a Power Flow Management System(PMS). The charge controller is used to control the power flow from the PV module to the battery by operating in two modes. The Maximum Power Point Tracking mode(MPPT) extracts maximum power from PV panels and the voltage control mode prevents overcharging of the battery. A 160W prototype of the charge controller is simulated in MATLAB/Simulink environment and is implemented in hardware. The operation of the controller in two modes is verified and the relevant results are presented. A PV system implemented in houses involves various power sources and sinks. A control strategy is formulated in the PMS to criterion. The SoC is determined using coulometric measurements and is periodically recalibrated using Open Circuit Voltage method.
             </p>
-            <h5>Image processing module</h5>
-            <ul>
-              <li>Developed in C++, using <a href="http://opencv.willowgarage.com" target="_blank">OpenCV libraries</a>.</li>
-              <li>Sample gestures recognized:<br></li>
-            </ul>
+            <h5>Results</h5>
+           <iframe width="560" height="315" src="http://www.youtube.com/embed/GEOWGyvjKy0" frameborder="0" allowfullscreen></iframe>
             <div class="row">
-            <!--  <div class="span3"><img src="img/hand1.png" class="img-rounded"/></div>-->
-              <!--<div class="span3"><img src="img/hand2.png" class="img-rounded"/></div>-->
-              <!--div class="span3"><img src="img/hand3.png" class="img-rounded"/></div>-->
+           
             </div>
             <br>
             <ul>
               <li>something something.</li>
-              <li>Proj3.</li>
+              <li>Virtual Numpad</li>
             </ul>
             <h5>Electronics</h5>
             <div class="row">
@@ -112,118 +112,113 @@
                   <li>Pulse-Width-Modulated (PWM) signals were used to control the position of the servomotor.</li>
                 </ul>
                 <br>
-                <table class="table table-bordered table-hover">
-                  <tr><td>A presentation on the project can be found <a href="files/ServoControl.pdf" target="_blank">here. <i class="icon-download"></i></a></td></tr>
+                <!--  <table class="table table-bordered table-hover"> -->
+                  <tr></tr>
                 </table>
               </div>
               <div class="span3"><a href="http://arduino.cc" target="_blank"><img src="img/arduino.jpg" /></a></div>
             </div>
           </section>
           <hr class="separator" />
-          <section id="robocon">
-            <h3>Proj3</h3>
+          <section id="VN">
+            <h3>Virtual Numpad</h3>
             <h5>Guide</h5>
-            <p>Prof. XXX, NIT T</p>
+            <p>Prof. Padmagirisan, NIT T</p>
             <br>
-            ok ok 
-            <iframe width="640" height="360" src="http://www.youtube.com/embed/Mv6XLKwHuGg?rel=0" frameborder="0" allowfullscreen></iframe>
+            <p>Designed and Developed an embedded system, which has wireless serial communication established with the Personnel Computer. The PC is used to process the virtual Numpad ( Numbers written on a piece of paper). A specific coloured object when pointed on a particular number, open CV process the location of the pointer and send the corresponding number to the embedded system and displayed in the 16*2 LCD display.The transmitter of data from PC to the display system contains different stages. Firstly a USB to serial converter is used,but since PC sends signals at different levels, an RS232 level converter is used to convert the signals to TTL logic, MAX232 IC is used to carry out this process and TTL levels are wirelessly transmitted using CC2500 RF modules interfaced with ATMEGA 8. The receiver end module and display system is show in the above image and complete working setup is shown in the pic beside.</p>
+         
           </section>
           <hr class="separator" />
-          <section id="watermeter">
-            <h3>Proj4</h3>
+          <section id="sine">
+            <h3>FPGA based Inverter control and status feedback over LAN</h3>
+            <h5>Guide</h5>
+            <p>Prof. Moorthi and Selvan, NIT T</p>
+            <br>
+            <ul>
+              <li>Developed efficient algorithm to implemented </li>
+            </ul>
+            <p>The aim of this work is to develop an embedded system directed at automating appliances in an industry via Ethernet. The system employs server/client architecture; switching commands for the appliances which are connected to the client, can be received and displayed at either end. The data containing information about the control commands are transferred between the end points of communication using Transmission Control Protocol (TCP). The remote host processes the commands received and translates them into actions of switching particular appliances ON or OFF. This type of control system gives the liberty for control of appliances from remote locations connected through Ethernet. A novel embedded system has been designed, implemented on Field Programmable Gate Arrays (FPGAs) and a small-scale prototype is developed.</p>
+         </section>
+             <hr class="separator" />
+             <section id="RP">
+             <h1>Research Publications</h1></section>
+         
+          <section id="PMS">
+            <h3>Solar based Intelligent Battery Charging system compatible with existing Home Inverters</h3>
                 <h5>Guide</h5>
-                <p>Prof. XXX, NIT T</p>
+                <p>Asst. Prof. Ilango, NIT T</p>
                 <h5>Abstract</h5>
-                <p>
-                Content .</p>
+                <p>Content .</p>
                 <p>
                 xample content .</p>
             <div class="row">
               <div class="span4">
                   <img src="img/Force_Sensor.jpg" />
               </div>
-              <div class="span5"><img src="img/meter.png" class="img-rounded"/></div>
+              <div class="span5"></div>
             </div>
-            <em>ENtry to TIIADC</em>
+            <em>Entry to TIIADC</em>
           </section>
           <hr class="separator" />
-          <section id="mlwss">
-            <h3>Proj 5</h3>
-            <h5>Guide</h5>
-            <p>NITT</p>
-            <h5>Abstract</h5>
-            <p>
-            One of the major contributors to urban power consumptions is pumping of water for consumption. This comes from the necessity to pump large quantities of water to the top of the building for storage in overhead tanks. However, for the lower floors of the building, this is completely unnecessary.</p>
-            <p>
-            The innovation in the proposed system lies in the fact that the water required for all the floors, need not be pumped to the overhead tanks. Instead, the water can be pumped to a storage-unit placed at every floor of the building. Every floor would utilize the water from the storage-units, installed on the floor above it. This would ensure that water pressure needs are met while the water pumping power is greatly reduced.</p>
-            <table class="table table-bordered table-hover">
-              <tr><td>
-                Proof of concept can be viewed <a href="files/Smart-Water-System.pdf" target="_blank">here. <i class="icon-download"></i></a>
-              </td></tr>
-            </table>
-            <h5>Proj 6</h5>
-            <p>Control systems for a smart water management system were developed and simulated in MATLAB Simulink.</p>
+          <section id="FPGAnetwork">
+            <h3>Ethernet based Industry Automation using FPGA </h3>
+                <h5>Guide</h5>
+                <p>Asst. Prof. S.Moorthi, NIT T</p>
+                <h5>Abstract</h5>
+                <p>Content .</p>
+                <p>
+                xample content .</p>
             <div class="row">
-              <a href="img/mlwss-control.png" target="_blank"><img src="img/mlwss-control.png" /></a>
-              <a href="img/mlwss-sub.png" target="_blank"><img src="img/mlwss-sub.png" /></a>
+              <div class="span4">
+                  <img src="img/Force_Sensor.jpg" />
+              </div>
+              <div class="span5"></div>
             </div>
-            <p><em>Entry to the GE Edison Challenge 2011</em>
+            <em>Entry to TIIADC</em>
           </section>
-          <hr class="separator" />
-          <section id="exoskeleton">
-            <h3>Proj 6</h3>
-            <h5>Guide</h5>
-            <p>Prof. Sujatha Srinivasan, NIT T<br>
-            <em>Course: Theory of Mechanisms.</em> Nov 2012</p>
-            <h5>Abstract</h5>
-            <p>The aim of the project.....</p>
-            <div class="row">
-              <div class="span4"><img src="img/Mechanism1.gif" alt="Mechanism1" class="img-rounded" /></div>
-              <div class="span4"><img src="img/Mechanism2.gif" alt="Mechanism2" class="img-rounded" /></div>
-            </div>
-            <br>
-            <table class="table table-bordered table-hover">
-              <tr><td>The project report can be found <a href="files/WalkingMechanism.pdf" target="_blank">here. <i class="icon-download"></i></a></td></tr>
-            </table>
-            <p>
-              Credits to <a href="https://www.facebook.com/girish.ananth911">Girish Ananth</a>.
-            </p>
+           <hr class="separator" />
+         
+            <section id="industry">
+            <h1>Industrial Research <small> Internship</small> </h1>
           </section>
-          <hr class="separator" />
-          <section id="industry">
-            <h1>Industrial Research <small> Internships</small> </h1>
-          </section>
-          <section id="ge">
-            <h3>INT1</h3>
-              <h5>General Electric, Global Research Center, John F. Welch Technology Center [May - July 2011]</h5>
-              <h5>Guides</h5><p>Dr. Baskaran Ganesan and Satheesh Jeyaraman</p>
+          <section id="IQL">
+             <h4>Indigo Quotient Labs [May - July 2012]</h4>
+              <h5>Guides</h5><p>Adarsha Sreeramareddy</p>
+            <h3>Real-time energy consumption measuring and monitoring device</h3>
+           
               <h5>Abstract</h5>
-              It is of essential that pipes that transport oil and natural gas are leak proof.Therefore, there exists the need to have a sound inspection system in place to detect flaws in the welding. Testing machines based on principles of ultrasound have already been developed. However, existing methods of visualization are very difficult to comprehend, and are extremely voluminous in nature. The task at hand was to develop a visualization method that accurately combined data from different testing channels, and represented flaws in the welding on actual geometrical coordinates. This involved: 
+              <p>It is of essential that residential and industrial consumers of electrical energy should be aware of the energy being consumed by certain appliances and it's performance in terms of power factor in real time at greater accuracy.
+              The existing residential Energy meters in India are incapable of measuring the apparent power thus measuring lesser quantity than it is being consumed.</p>
               <ul>
-                <li>Development of ultrasonic physics based models for longitudinal ultrasonic wave propagation in isotropic homogenous material.</li>
-                <li>Real-time data processing from multiple inspection channels.</li>
-                <li>Development of algorithms to efficiently process data and to combine information from multiple sources.</li>
-                <li>Rendering the solution (graphics programming). Developed a 3D Visualization tool in C++ and OpenGL to represent the amplitude and Time of Flight information onto the actual inspection geometry (pipe annular region).</li>
-                <li>Optimization for better performance and software rendering.</li>
-                <li>Designed and conducted experiments to validate the accuracy of the simulation results.</li>
+               
+                <li>Real-time data processing from multiple senor inputs</li>
+                <li>Development of efficient algorithms to process analog data and measure the complex power being consumed</li>
+                <li>Real-time measurement of real power and apparent power, thus monitoring the power factor </li>
+              </ul>
+        
+            <h3>Infrared codes receiver and transmitter</h3>
+              
+              <h5>Abstract</h5>
+              <p>It was always necessary to automate existing home appliances and provide centralised controls to the user. The objective was to develop a system that could provide centralised online control for all the house hold appliances without making any hardware modifications in the appliance. This included </p>
+              <ul>
+               <li>Design and Developement of electronic circuit that detects the carieer frequency of the appliance's remote controller's IR signal</li>
+                <li>Development of emebedded system that detect and stores Infrared codes of the different control signals of the appliance</li>
+                <li>Designed and Developed Infrared transmitter which tranmits the stored digital signal modulated with career frequency </li>
               </ul>
           </section>
+          <h3>Intelligent Lighting System</h3>
+          <h5>Abstract</h5>
+          <p>In order to increase the human sophistication and automatiization of the lighting environment. Hence, the objective was to develop a system which detects the human presence  and also measure the luminous intensity in that viscinity. Based on these data, the lighting systems are toggled to provide sufficient light during the presence of a human. The development of a system involved: </p>
+          <ul>
+            <li>Interfacing light sensor to Zigbee micro to measure the ambient light intensity</li>
+            <li>Interfacing PIR sensors to Zigbee micro to detect the change in IR rays which detects the human motion in that environement </li>
+            <li>Developed efficient embedded code to automatize the lighting status in that region based on the information on luminous intensity and human motion obtained from the PIR and light sensors</li>
+          </ul>
+          
           <hr class="separator" />
-          <section id="itc">
-            <h3>INT2</h3>
-              <h5>ITC Ltd. [May - July 2012]</h5>
-              <h5>Guide</h5>
-              <p>Mr. XXX</p>
-              <h5>Abstract</h5>
-              Volumetric packaging of bulk material does not involve actual weighing of the pouches. Thus, there is a high stochastic variation in the weights of the stock keeping units. The project was aimed at reduction of the variations in packaging by Volumetric Form Fill and Seal Machines (VFFS) by 50%, leading to higher accuracy of filling and increased revenue.
-              <h5>Summary of work done</h5>
-              <ul>
-                <li>
-                  Developed an Event-based PID controller using the open-source electronics platform, Arduino to provide real time feedback for a bulk-material packaging process.</li>
-                <li>Used Control Charts to identify and mitigate sources of variation by applying Western-Electric and Nelson rules.</li>
-                <li>Designed mechanical attachments to the Volumetric Feeder to improve accuracy by 50%, after a comprehensive study of the dynamics of the machine and bulk flow properties of the material being packaged.</li>
-              </ul>
-          </section>
+         
+           
+        
         </div>
       </div>
     </div>
