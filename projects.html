@@ -32,7 +32,7 @@
           <ul class="nav" id="mainTabs">
             <li><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
             <li class="active"><a href="projects.html"><i class="icon-cog icon-white"></i> Projects</a></li>
-            <li><a href="resume1.html"><i class="icon-list-alt icon-white"></i> Resume</a></li>
+            <li><a href="resume.html"><i class="icon-list-alt icon-white"></i> Resume</a></li>
             <li><a href="courses1.html"><i class="icon-book icon-white"></i> Academics</a></li>
             <li><a href="contact.html"><i class="icon-envelope icon-white"></i> Contact</a></li>
             <!-- <li><a href="#">Link</a></li> -->
@@ -55,7 +55,7 @@
                 <a href="#VN">Virtual Numpad</a>
             </li>
              <li>
-                <a href="#sine">Multiple client Inverter</a>
+                <a href="#sine">Micro-Grid</a>
             </li>
             <li class="nav-header">Research Publications</li>
             <li>
@@ -92,8 +92,18 @@
             <h5>Abstract</h5>
             <p>
               Abstract:
-PV modules are increasingly used in the battery charging applications in home inverter systems due to the power crisis faced in developing countries. This works aims at maximizing the use of solar energy by charging the battery as well as by supplying it to the loads when in excess. This system is implemented using two subsystems namely a charge controller and a Power Flow Management System(PMS). The charge controller is used to control the power flow from the PV module to the battery by operating in two modes. The Maximum Power Point Tracking mode(MPPT) extracts maximum power from PV panels and the voltage control mode prevents overcharging of the battery. A 160W prototype of the charge controller is simulated in MATLAB/Simulink environment and is implemented in hardware. The operation of the controller in two modes is verified and the relevant results are presented. A PV system implemented in houses involves various power sources and sinks. A control strategy is formulated in the PMS to criterion. The SoC is determined using coulometric measurements and is periodically recalibrated using Open Circuit Voltage method.
+ This works aims at maximizing the use of solar energy by charging the battery as well as by supplying it to the loads when in excess. This system is implemented using two subsystems namely a charge controller and a Power Flow Management System(PMS). <ul>The charge controller is used to control the power flow from the PV module to the battery by operating in two modes. <li>The Maximum Power Point Tracking mode(MPPT) extracts maximum power from PV panels and the voltage control mode prevents overcharging of the battery. A 160W prototype of the charge controller is simulated in MATLAB/Simulink environment and is implemented in hardware. The operation of the controller in two modes is verified </li>.
+ <li> A control strategy is formulated in the PMS to criterion.</li>
+ <li>The SoC is determined using coulometric measurements and is periodically recalibrated using Open Circuit Voltage method.</li>
+   
+ </ul>
             </p>
+               <div class="row">
+              <div class="span3"><img src="img/TI1.png" class="img-rounded"/></div>
+              <div class="span3"><img src="img/TI2.png" class="img-rounded"/></div>
+              <div class="span3"><img src="img/TI3.png" class="img-rounded"/></div>
+            </div>
+            <br>
             <h5>Results</h5>
            <iframe width="560" height="315" src="http://www.youtube.com/embed/GEOWGyvjKy0" frameborder="0" allowfullscreen></iframe>
             <div class="row">
@@ -130,14 +140,15 @@ PV modules are increasingly used in the battery charging applications in home in
           </section>
           <hr class="separator" />
           <section id="sine">
-            <h3>FPGA based Inverter control and status feedback over LAN</h3>
+            <h3>FPGA based Micro-Grid Controller employing Space-Vector Modulation Algorithms</h3>
             <h5>Guide</h5>
-            <p>Prof. Moorthi and Selvan, NIT T</p>
+            <i>Dr.S.Moorthi and Dr.M.P.Selvan, Assistant Professors, NIT, Trichy</i>
             <br>
+            <em>Project proposed and sanctioned by Power Grid Corporation of India Limited (PGCL)</em>
             <ul>
-              <li>Developed efficient algorithm to implemented </li>
+            <li>Designed and implemented efficient Space-Vector Modulation (SVM) algorithms on FPGA to generate Sinusoidal Pulse Width Modulation (SPWM) signals using VHDL.</li>
+            <li>A micro-grid controller is developed to deploy the signals to operate single-phase and three-phase inverters in a grid, from a remote location through Ethernet.</li>
             </ul>
-            <p>The aim of this work is to develop an embedded system directed at automating appliances in an industry via Ethernet. The system employs server/client architecture; switching commands for the appliances which are connected to the client, can be received and displayed at either end. The data containing information about the control commands are transferred between the end points of communication using Transmission Control Protocol (TCP). The remote host processes the commands received and translates them into actions of switching particular appliances ON or OFF. This type of control system gives the liberty for control of appliances from remote locations connected through Ethernet. A novel embedded system has been designed, implemented on Field Programmable Gate Arrays (FPGAs) and a small-scale prototype is developed.</p>
          </section>
              <hr class="separator" />
              <section id="RP">
@@ -146,14 +157,16 @@ PV modules are increasingly used in the battery charging applications in home in
           <section id="PMS">
             <h3>Solar based Intelligent Battery Charging system compatible with existing Home Inverters</h3>
                 <h5>Guide</h5>
-                <p>Asst. Prof. Ilango, NIT T</p>
+                <p><em>Dr.G.Saravano Ilango, Assistant Professor, NIT, Trichy </em></p>
                 <h5>Abstract</h5>
-                <p>Content .</p>
-                <p>
-                xample content .</p>
+              <ul>
+                     <li>The project involved design and implementation of <b>Maximum Power Point Tracking </b>(MPPT - Perturb and Observe Algorithm)</li>
+                     <li><b>Power Flow Management System</b> which manages the power flow between solar panels, the load and inverter battery to maximize utilization of solar power being generated </li>
+                     <li><b>Battery Monitoring System </b>in which an effective coulomb counting algorithm is implemented using TI MSP430 F5438A micro-controller to measure the State of Charge (SoC) of the battery with high accuracy.</li>                                            
+              </ul>
             <div class="row">
               <div class="span4">
-                  <img src="img/Force_Sensor.jpg" />
+                  <img src="img/setup.jpg" />
               </div>
               <div class="span5"></div>
             </div>
