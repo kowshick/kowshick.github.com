@@ -1,4 +1,4 @@
 $ dig www.kowshick.in +nostats +nocomments +nocmd
  ;www.kowshick.in.                 IN      A
-www.kowshick.in.          3592    IN      CNAME   kowshick.github.io.
-kowshick.github.io.      43192   IN      A       204.232.175.78
+ www.kowshick.in.          3592    IN      CNAME   kowshick.github.io.
+ kowshick.github.io.      43192   IN      A       204.232.175.78
