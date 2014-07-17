@@ -34,7 +34,7 @@
             <li class="active"><a href="projects.html"><i class="icon-cog icon-white"></i> Projects</a></li>
             <li><a href="resume.html"><i class="icon-list-alt icon-white"></i> Resume</a></li>
             <li><a href="courses.html"><i class="icon-book icon-white"></i> Academics</a></li>
-            <li><a href="contact.html"><i class="icon-envelope icon-white"></i> Contact</a></li>
+            <li><a href="contact.php"><i class="icon-envelope icon-white"></i> Contact</a></li>
             <!-- <li><a href="#">Link</a></li> -->
           </ul>
         </div>
@@ -82,27 +82,27 @@
             <h1>Projects<small> Academic, Courses and Contests</small></h1>
           </div>
           <section id="AU">
-            <h3>Coarse Grain Reconfigurable Arithmetic Unit for DSP applicatio</h>
+            <h3>Coarse Grain Reconfigurable Multiply and Accumulate unit for DSP application</h3>
             
-            <div class="row"><div class="span5"><img src="img/AU.jpg" class="img-rounded"/></div>
+            <div class="row"><div class="span7"><img src="img/AU.jpg" class="img-rounded"/></div>
             </div>
+			<br/>
             <ul>
               <li>
-                The project aim is to build a multi-precision arithmetic unit with a reconfigurable architecture with improved power and timing characteristics for Digital Signal processing applications.
+                Designed different coarse grain reconfigurable multiply and accumulate units improving it's efficiency in terms of <i> power </i>and <i>worst case delay </i>over the existing designs.
+              </li>
+              <li>
+                In the proposed system, an N-bit precision Multiplier in the MAC unit architecture will consist of ‘n’ smaller blocks of 2<sup>(N/n)</sup>-bit precision. For example, an 8-bit AU will consist of 4 nos. of 4-bit AU. 
 
               </li>
               <li>
-                In the proposed system, a N-bit precision Arithmetic Unit (AU) architecture will consist of ‘n’ smaller blocks of (N/n)-bit precision. For example, an 8-bit AU will consist of 4 nos. of 4-bit AU. 
-
+                Truncation logic used in this design will truncate higher precision input to lower precision based on the input wordlength. This increases the speed of operation and lower the power consumption of multiplier operation by compromising on the accuracy of ouput over the error free multipliers. 
               </li>
               <li>
-                The small AU blocks are the fundamental blocks of the system. Hence, the name coarse grained architecture.
-              </li>
-              <li>
-                Depending on the number of bits in the inputs operands, only the minimal required number of fundamental blocks are enabled for processing. The rest are idle. Hence, the name reconfigurable architecture.
-
-              </li>
+			  This introduction of errors has observed to have increased the efficiency of processing without compromising much in the qualtiy of output. This has been proved by using this MAC unit in FIR filtering to perform unsharp masking on images (Results can be seen below).
             </ul>
+			<em> FIR Filter results with conventional and developed mac units: </em>
+			<div class="row"><div class="span7"><img src="img/MAC_Results.png" class="img-rounded"/></div>
           </section>
           <section id="HA">
             <h3>Control of Home Appliances from remote location</h3>
