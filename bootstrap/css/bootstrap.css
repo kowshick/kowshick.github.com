@@ -162,12 +162,11 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
-  background: url('/img/DSC_0853.JPG');
+  color: #fffffffffffff;
+       background: url('http://kowshick.github.io/img/AU.jpg');
      background-size: 1440px 800px;
      background-repeat:no-repeat;
-    display: compact;
- 
+    display: compact;     
 }
 
 a {
