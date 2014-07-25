@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -317,3 +318,323 @@
   <!-- // $('img').click(function(){window.open($(this).attr('src'));console.log($(this));});
   // $('img').hover(function(){$(this).css('cursor','pointer');},function(){$(this).css('cursor','auto');}); -->
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kowshick Boddu</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/other.css" rel="stylesheet">
+    <!-- Enable fluid response -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
+
+    <script src="bootstrap/js/jquery-latest.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Analytics Code -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-10620514-6']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body data-spy="scroll" data-target=".sideNav">
+    <div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="index.html">Kowshick Boddu</a>
+          <ul class="nav" id="mainTabs">
+            <li><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
+            <li class="active"><a href="projects.html"><i class="icon-cog icon-white"></i> Projects</a></li>
+            <li><a href="resume.html"><i class="icon-list-alt icon-white"></i> Resume</a></li>
+            <li><a href="courses.html"><i class="icon-book icon-white"></i> Academics</a></li>
+            <li><a href="contact.html"><i class="icon-envelope icon-white"></i> Contact</a></li>
+            <!-- <li><a href="#">Link</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="span3 sideNav">
+          <ul id="resumeSideNavBar" class="nav nav-pills nav-stacked affix">
+            <li class="nav-header">Academic Projects</li>
+            <li>
+                <a href="#AU">Reconfig. Arithmetic Unit</a>
+            </li>
+            <li>
+                <a href="#HA">Home Automation</a>
+            </li>
+            <li>
+                <a href="#TIIADC">PMS</a>
+            </li>
+            <li>
+                <a href="#VN">Virtual Numpad</a>
+            </li>
+             <li>
+                <a href="#sine">Micro-Grid</a>
+            </li>
+            <li class="nav-header">Research Publications</li>
+            <li>
+                <a href="#PMS">PMS</a>
+            </li>
+            <li>
+                <a href="#FPGAnetwork">Industrial Automation</a>
+            </li>
+          
+            
+          <li class="nav-header">Industrial Research</li>
+            <li><a href="#IQL">Indigo Quotient Labs</a>
+         
+            
+            </li>
+           
+          </ul>
+        </div>
+        <div class="span9">
+          <div class="page-header">
+            <h1>Projects<small> Academic, Courses and Contests</small></h1>
+          </div>
+          <section id="AU">
+            <h3>Coarse Grain Reconfigurable Arithmetic Unit for DSP applications</h3>
+             
+            <div class="row"><div class="span6"><img src="img/AU.jpg" class="img-rounded"/></div>
+            </div>
+            <h5>Guide</h5><i>Dr.S. Moorthi, Assistant Professor, NIT Trichy</i>
+            <h5>Abstract:</h5>
+            <ul>
+              <li>
+                The project aim is to build a multi-precision arithmetic unit with a reconfigurable architecture with improved power and timing characteristics for Digital Signal processing applications.
+              </li>
+              <li>
+                In the proposed system, a N-bit precision Arithmetic Unit (AU) architecture will consist of ‘n’ smaller blocks of (N/n)-bit precision. For example, an 8-bit AU will consist of 4 nos. of 4-bit AU. 
+              </li>
+              <li>
+                The small AU blocks are the fundamental blocks of the system. Hence, the name coarse grained architecture.
+              </li>
+              <li>
+                Depending on the number of bits in the inputs operands, only the minimal required number of fundamental blocks are enabled for processing. The rest are idle. Hence, the name reconfigurable architecture.
+              </li>
+            </ul>
+          </section>
+          <section id="HA">
+            <h3>Control of Home Appliances from remote location</h3>
+            <h5>Guide:</h5><i>Dr.M.Jaya Bharatha Reddy, Associate Professor, NIT Trichy(September 2011 - December 2011)</i>
+            <h5>Abstract</h5>
+            <p>
+                Developed a centralised monitoring system, capable of monitoring and controlling status of home appliances over Local Area Network using embedded systems.
+            </p>
+                <ul>
+                  <li> Developed a web application using HTML which displays the  status of appliances in real time. The protocol used for the Local Area Network was TCP/IP protocol.</li>
+                  <li>An <a href="http://arduino.cc/en/Main/ArduinoEthernetShield">Arduino</a> Ethernet shield was used as an interface between the router and microntroller to convert the data packets received from the server through TCP into 8-bit serial data which could be interpreted by a micro controller.</li>
+                  <li>A star topology was employed within microcontrollers each of which received control signal from any of clients in Local Area Network and performed triggering of relays controlling the  status of individual appliances. </li>
+                  <li>An effective electrical circuitry was designed such that the appliances had control  from both the web application and as well as from hardware switch.</li>
+                </ul>
+          <em>Entry to Pragyan, <a href="http://www.pragyan.org/13/home/exhibitions/sangam/"> Sangam </a> - A Technical project display contest </em>
+            <iframe width="560" height="315" src="http://www.youtube.com/embed/y1TEhkglS3o" frameborder="0" allowfullscreen></iframe>
+          </section>
+          <hr class="separator" />
+          <section id="TIIADC">
+            <h3>Power Flow Managment System</h3>
+            <h5>Guide</h5><i>Dr.Saravana Ilango, Assistant Professor, NIT Trichy</i>
+            <h5>Abstract</h5>
+            <p>
+              
+ This work aimed at maximizing the use of solar energy by charging the battery as well as by supplying it to the loads when in excess. This system is implemented using two subsystems namely a charge controller and a Power Flow Management System(PMS). <ul>The charge controller is used to control the power flow from the PV module to the battery by operating in two modes. <li>The <em>Maximum Power Point Tracking mode(MPPT)</em> extracts maximum power from PV panels and the <em>voltage control mode</em> prevents overcharging of the battery. </li>
+ <li> A control strategy is formulated in the PMS to criterion.</li>
+ <li>The SoC is determined using <em> coulometric measurements</em> and is periodically recalibrated using Open Circuit Voltage method.</li>
+   
+ </ul>
+            </p><em>Schematic of Charge Controller Module:</em>
+               <div class="row">
+              <div class="span5"><img src="img/TI1.jpg" class="img-rounded"/></div>
+             </div>
+              <br>
+              <em>Schematic of Power Flow Management Module: </em>
+              <div class="row">
+              <div class="span5"><img src="img/TI2.jpg" class="img-rounded"/></div>
+              </div>
+              <br>
+              <em>Complete Setup of the Proposed System:</em>
+              <div class="row">
+              <div class="span4"><img src="img/TI3.jpg" class="img-rounded"/></div>
+            </div>
+            <br>
+            <em>Project working demo:</em>
+            <div class="row">
+           <iframe width="560" height="315" src="http://www.youtube.com/embed/GEOWGyvjKy0" frameborder="0" allowfullscreen></iframe>
+             </div>
+            <br>
+            <h5>Micro-controllers employed in the system:</h5>
+            <div class="row">
+              <div class="span6">
+                <ul>
+                  <li>The buck converter is triggered using Pulse-Width-Modulated (PWM) signals generated from <a href="http://www.ti.com/tool/msp-exp430g2"> MSP430 launchpad. </a> </li>
+                  <li>The State of Charge (SoC) measuring algorithms and switching strategy were implemented using <a href="http://www.ti.com/tool/msp-exp430f5438">MSP430 Experimenter board (F5438A).</a></li>
+                </ul>
+                <br>
+               
+             
+          </section>
+          <hr class="separator" />
+          <section id="VN">
+            <h3>Virtual Numpad</h3>
+           <em>Implemented as a technical activity in <a href="https://www.facebook.com/SpiderNitt">SPIDER - 'R&D club of NIT Trichy'</a>.</em>
+           <br>
+           <h5>Abstract</h5>
+            <p>Designed and Developed a system using Image Processing based on edge detection algorithm and effective machine learning technique to identfy numbers written on a white such that they can be used as a digital input to any embedded system. </p>
+         <ul>
+         <li>A processing system with webcam take images at high frames per second and process them using edge detection and machine learning technique to identify the number over which the coloured object is placed emulating a physical click on the number. </li>
+         <li>A portable device was fabricated which involved interfacing a character display to a microcontroller and a RF module to enable a wireless connectivity between system processing the Image and this device. </li>
+         <li>Once the frame is processed the corresponding number is sent to the device through RF module at baud rate of 9600 through Universal Sysnchronous/Asynchronous transceiver/Receiver in Asynchronous mode (USART). </li>
+         </ul>
+         <em>Protable wireless display device:</em>
+          <div class="row">
+              <div class="span5"><img src="img/VN1.JPG" class="img-rounded"/></div>
+              </div>
+              <br>
+          <em>Image being processed at a particular instant and output is displayed in the device:</em>
+          <div class="row">
+              <div class="span5"><img src="img/VN2.JPG" class="img-rounded"/></div>
+              </div>
+              <br>
+            </section>
+          <hr class="separator" />
+          <section id="sine">
+            <h3>FPGA based Micro-Grid Controller employing Space-Vector Modulation Algorithms</h3>
+            <em>Project proposed and sanctioned by Power Grid Corporation of India Limited (PGCL)</em>
+            <h5>Guide:</h5>
+            <i>Dr.S.Moorthi and Dr.M.P.Selvan, Assistant Professors, NIT, Trichy</i>
+            <br>
+            <ul>
+            <li>Designed and implemented efficient Space-Vector Modulation (SVM) algorithms on FPGA to generate Sinusoidal Pulse Width Modulation (SPWM) signals using VHDL.</li>
+            <li>A micro-grid controller is developed to deploy the signals to operate single-phase and three-phase inverters in a grid, from a remote location through Ethernet.</li>
+            </ul>
+            </section>
+             <hr class="separator" />
+             <section id="RP">
+             <h1>Research Publications</h1></section>
+              <section id="PMS">
+            <h3>Solar based Intelligent Battery Charging system compatible with existing Home Inverters</h3>
+                <h5>Guide</h5>
+                <p><em>Dr.G.Saravano Ilango, Assistant Professor, NIT, Trichy </em></p>
+                <em> This paper has been presented in Texas Instruments India Educators Conference(<a href="http://www.tiiec.in/">TIIEC</a>) an IEEE conference held at Bangalore </em>
+                <h5>Abstract</h5>
+              <ul>
+                     <li>The project involved design and implementation of <b>Maximum Power Point Tracking </b>(MPPT - Perturb and Observe Algorithm)</li>
+                     <li><b>Power Flow Management System</b> which manages the power flow between solar panels, the load and inverter battery to maximize utilization of solar power being generated </li>
+                     <li><b>Battery Monitoring System </b>in which an effective coulomb counting algorithm is implemented using TI MSP430 F5438A micro-controller to measure the State of Charge (SoC) of the battery with high accuracy.</li>                                            
+              </ul>
+              
+            <table class="table table-bordered table-hover">
+              <tr><td>The publication can be found <a href="files/TIIADC.pdf" target="_blank">here. <i class="icon-download"></i></a></td></tr>
+            </table>
+            <em>Entry to TIIADC</em>
+          </section>
+          <hr class="separator" />
+          <section id="FPGAnetwork">
+            <h3>Ethernet based Industry Automation using FPGA </h3>
+                <h5>Guide</h5>
+                <p>Dr.S.Moorthi and Dr.M.P.Selvan, Assistant Professors, NIT Trichy</p>
+                <em> This work has been presented in <a href="http://africon2013.org">Africon 2013</a> an IEEE conference held at Mauritius and has been accepted for publishing</em>   
+                <h5>Abstract</h5>.
+                <p>The aim of this work was to develop an embedded system directed at automating appliances in an industry via Ethernet.</p>
+                <ul>
+                   <li>The system employs server/client architecture; switching commands for the appliances which are connected to the client, were received and displayed at either end using TFT display.</li>
+                   <li>The data containing information about the control commands are transferred between the end points of communication using Transmission Control Protocol (TCP).</li>
+                   <li>The remote host processes the commands received and translates them into actions of switching particular appliances ON or OFF. </li>
+                </ul>
+                             <table class="table table-bordered table-hover">
+              <tr><td>The publication can be found <a href="files/Ethernet.pdf" target="_blank">here. <i class="icon-download"></i></a></td></tr>
+            </table>
+      <h5>Results:</h5>          
+       This type of control system gives the liberty for control of appliances from remote locations connected
+       through Ethernet. Moreover, this system is independent of dedicated PC as it uses a novel embedded system implemented on Field Programmable Gate Arrays (FPGAs).
+            <br>
+            <div class="row">
+              <div class="span4">
+                  <img src="img/ethernet_setup.jpg" />
+              </div>
+              <div class="span4"></div>
+            </div>
+            
+          </section>
+           <hr class="separator" />
+         
+            <section id="industry">
+            <h1>Industrial Research <small> Internship</small> </h1>
+          </section>
+          <section id="IQL">
+             <h4>Indigo Quotient Labs [May - July 2012]</h4>
+              <h5>Guides</h5><i>Adarsha Sreeramareddy</i>
+            <section id="EM">
+            <h3>Real-time energy consumption measuring and monitoring device</h3>
+           
+              <h5>Abstract</h5>
+              <p>It is of essential that residential and industrial consumers of electrical energy should be aware of the energy being consumed by certain appliances and it's performance in terms of power factor in real time at greater accuracy.
+              The existing residential Energy meters in India are incapable of measuring the apparent power thus measuring lesser quantity than it is being consumed.</p>
+              <ul>
+               
+                <li>Real-time data processing from multiple sensor inputs</li>
+                <li>Development of efficient algorithms to process analog data and measure the complex power being consumed.</li>
+                <li>Real-time measurement of real power and apparent power, thus monitoring the power factor. </li>
+              </ul>
+        <em> Project working demo: </em>
+        <div class="row">
+        <iframe width="560" height="315" src="//www.youtube.com/embed/opb7rEl5RRc" frameborder="0" allowfullscreen></iframe>
+          </div> 
+             
+           </section>
+           <section id="IR">
+            <h3>Infrared codes receiver and transmitter</h3>
+              
+              <h5>Abstract</h5>
+              <p>It was always necessary to automate existing home appliances and provide centralised controls to the user. The objective was to develop a system that could provide centralised online control for all the house hold appliances without making any hardware modifications in the appliance. This included </p>
+              <ul>
+               <li>Design and Developement of electronic circuit that detects the carrier frequency of the appliance's remote controller's IR signal.</li>
+                <li>Development of emebedded system that detect and stores Infrared codes of the different control signals of the appliance.</li>
+                <li>Designed and Developed Infrared transmitter which tranmits the stored digital signal modulation, involving Frequency Shift Keying.</li>
+              </ul>
+          </section>
+          <section id="IL">
+          <h3>Intelligent Lighting System</h3>
+          <h5>Abstract</h5>
+          <p>In order to increase automation of the lighting system based on the lighting in the environment, a system which detects the human presence  and also measure the luminous intensity in that vicinity was developed. Based on these data, the lighting systems are toggled to provide sufficient light during the presence of a human. The development of a system involved: </p>
+          <ul>
+            <li>Interfacing light sensor to <a href="http://www.ti.com/tool/cc2530dk">Zigbee</a> microcontroller to measure the ambient light intensity</li>
+            <li>Interfacing Passive Infrared Sensor (PIR) sensors to Zigbee micro to detect the change in IR rays which detects the human motion in that environement. </li>
+            <li>Developed efficient embedded code to automatize the lighting status in that region based on the information on luminous intensity and human motion obtained from the PIR and light sensors.</li>
+          </ul>
+          </section>
+          </section>
+        <h5>Results/Impact:</h5>
+       <p> All of these projects focused on developing systems which will aid in conserving electrical energy and introduce automation in residencies and also an effective control medium.</p>
+          <hr class="separator" />
+         
+           
+        
+        </div>
+      </div>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43264580-1', 'kowshick.in');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+  <!-- // $('img').click(function(){window.open($(this).attr('src'));console.log($(this));});
+  // $('img').hover(function(){$(this).css('cursor','pointer');},function(){$(this).css('cursor','auto');}); -->
+</html>
+>>>>>>> 5c36ec8a00b998923d65f72e17339c37dcd862c2
