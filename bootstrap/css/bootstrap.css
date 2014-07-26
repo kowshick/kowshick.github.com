@@ -37,10 +37,7 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-    background: url('http://kowshick.github.io/img/AU.jpg');
-     background-size: 1440px 800px;
-     background-repeat:no-repeat;
-    display: compact;     
+         
 }
 
 a:focus {
