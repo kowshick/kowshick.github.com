@@ -46,6 +46,10 @@
         <div class="span3 sideNav">
           <ul id="resumeSideNavBar" class="nav nav-pills nav-stacked affix">
             <li class="nav-header">Academic Projects</li>
+            
+            <li>
+            	<a href="#SRAM"> 6 Transistor SRAM</a>
+            </li>
             <li>
                 <a href="#AU">Reconfig. Arithmetic Unit</a>
             </li>
@@ -78,10 +82,34 @@
            
           </ul>
         </div>
+       
+        
+        
+        
         <div class="span9">
           <div class="page-header">
             <h1>Projects<small> Academic, Courses and Contests</small></h1>
           </div>
+          <section id="SRAM">
+          	<h3>6T SRAM</h3>
+          	<h5> Abstract:</h5>
+          	<p>
+          		The goal of this project is to design a 4X1 SRAM.
+			The SRAM consists of the basic 6T cell. Each bit is accessed
+			using a 4 bit address word. Read and Write strobes are qualified
+			(i.e. conditionally clocked) by a clocked driver using a nonoverlapping
+			clock phase 1 to synchronise the read and write
+			access. Bit-line pre-charge circuitry are placed above each column
+			and qualified by clock phase 2. The data write and sense
+			amplifier are placed below the SRAM core. In addition to
+			successfully implementing the proposed design, it is ensured that
+			the area of the layout is kept as minimal as possible while
+			estimating the 50% delay from clock phase1 to the output data
+			(O/P) transitions for both 1 and 0 reads and also the 50% delay
+			from the rising edge of clock phase 1 to the final writing of the
+                        input data into the memory.
+          	</p>
+          </section>
         <section id="AU">
             <h3>Coarse Grain Reconfigurable Multiply and Accumulate unit for DSP application</h3>
             
